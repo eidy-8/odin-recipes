@@ -1,3 +1,17 @@
+.card {
+    width: 1500px;
+    background: lightcoral;
+    margin: 16px auto;
+    padding: 8px;
+  }
+
+.incard {
+    display: block;
+    width: auto;
+    background: white;
+    padding: 8px;
+}
+
 .image {
     display: block;
     width: 500px;
@@ -11,8 +25,19 @@ h3 {
     font-weight: bolder;
     background-color: lightcoral;
     text-align: center;
+    margin: 32px;
 }
 
-li {
-    font-size: large;
+p {
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+ol,
+ul {
+    list-style-position: inside;
+    display: block;
+    align-items: center;
 }
